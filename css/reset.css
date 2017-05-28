@@ -1,0 +1,73 @@
+@charset "utf-8";
+/*作者：1046592787@qq.com
+ *时间：2017-05-24
+ *描述：重置样式
+ */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #555;
+  font-size: 12px;
+  font-family: "宋体";
+  line-height: 22px;
+  background: #fff;
+}
+.clear {
+  clear: both;
+}
+img {
+  border: 0;
+  display: block;
+}
+a {
+  color: #797979;
+  text-decoration: none;
+  font-size: 12px;
+}
+a:hover {
+  color: #e50056;
+}
+ul,
+li {
+  list-style-type: none;
+}
+em,
+i {
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+.clearfix:after{content:".";clear: both;display:block;height:0;overflow:hidden;
+visibility: hidden;}
