@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+body,html{
+	width:100%;
+	background-color:#E4E4E4;
+}
+img,span{
+	display:block;
+}
+a{
+	text-decoration: none;
+	
+}
+#header{
+	width:1017px;
+	height:117px;
+	margin:0 auto;
+}
+.content{
+	width:1017px;
+	height:514px;
+	margin:0 auto;
+	background-color:white;
+}
+.content .left{
+	width:505px;
+	height:494px;
+	padding-top:20px;
+	float:left;
+}
+.content .left img{
+	margin:0 auto;
+}
+.content .right{
+	width:400px;
+	height:100%;
+	float:left;
+	
+}
+.content .right .name{
+	width:100%;
+	height:37px;
+}
+.content .right .name p{
+	width:50%;
+	height:100%;
+	text-align:center;
+	float:left;
+	line-height:37px;
+	margin-top:6px;
+	position:relative;
+}
+.content .right .name p span{
+	height:2px;
+	width:55px;
+	background-color:black;
+	margin:0 auto;
+}
+.contentRegi{
+	width:1017px;
+	height:577px;
+	margin:0 auto;
+	background-color:white;
+}
+.contentRegi .left{
+	width:505px;
+	height:494px;
+	padding-top:20px;
+	float:left;
+}
+.contentRegi .left img{
+	margin:0 auto;
+}
+.contentRegi .right .formRegi{
+	width:400px;
+	height:518px;
+	outline:1px solid #999999;
+	margin-top:9px;
+	display:block;
+}
+
+.contentRegi .right .formB .formOne{
+	width:324px;
+	height:65px;
+	margin:0 auto;
+	margin-top:20px;
+	
+}
+.contentRegi .right .formRegi .formH{
+	margin-top:0px;
+}
+.contentRegi .right .formB .formOne .one{
+	display:block;
+	width:314px;
+	height:40px;
+	border-radius: 5px;
+	outline:none;
+	border:1px solid #C9C9C9;
+	color:#6F6F6F;
+	padding-left:10px;
+	
+}
+.contentRegi .right .formB .formOne .p1{
+	height:22px;
+	width:100%;
+	display:none;
+	font-size:12px;
+	line-height:22px;
+	
+}
+.contentRegi .right .formB .formOne .p1 span{
+	display:inline;
+	color:#555555;
+}
+.contentRegi .right .formB .formOne .p1 img{
+	display:inline;
+	width:16px;
+	height:12px;
+	vertical-align: middle;
+}
+.contentRegi .right .formB .formTwo{
+	margin-top:0px;
+	height:89px;
+}
+.contentRegi .right .formB .formTwo div{
+	height:40px;
+	width:324px;
+}
+.contentRegi .right .formB .formTwo span{
+	height:24px;
+	line-height:24px;
+	font-size:12px;
+	text-align:right;
+	
+}
+.contentRegi .right .formB .formTwo img.log{
+	width:190px;
+	height:40px;
+	
+	float:right;
+}
+
+
+.contentRegi .right .formB .formTwo .one{
+	width:100px;
+	float:left;
+}
+.contentRegi .right .formB .formTwo .p1{
+	width:122px;
+	height:22px;
+	
+}
+
+.contentRegi .right .formB .formPP{
+	width:324px;
+	height:65px;
+	margin:0 auto;
+} 
+.contentRegi .right .formB .formPP div{
+	height:40px;
+}
+.contentRegi .right .formB .formPP .one{
+	display:block;
+	width:182px;
+	float:left;
+}
+.contentRegi .right .formB .formPP .btn{
+	display:block;
+	width:132px;
+	float:right;
+	background-color:#FF9CB1;
+	border:none;
+	outline:none;
+}
+.contentRegi .right .formB .formThree{
+	width:324px;
+	height:30px;
+	margin-top:10px;
+	margin:0 auto;
+}
+.contentRegi .right .formB .formThree p{
+	height:100%;
+	width:50%;
+	font-size:12px;
+	line-height:30px;
+	float:left;
+}
+.contentRegi .right .formB .formThree p.p1{
+	text-align:left;
+}
+.contentRegi .right .formB .formThree p.p2{
+	text-align:right;
+}
+.contentRegi .right .formB .btn{
+	display:block;
+	height:43px;
+	width:324px;
+	margin:0 auto;
+	background-color:#E30165;
+	border-radius: 5px;
+	font-size:16px;
+	color:white;
+	border:none;
+	outline:none;
+	cursor:pointer;
+}
+.contentRegi .right .formB .formFour{
+	width:324px;
+	height:39px;
+	margin:0 auto;
+	margin-top:20px;
+}
+.contentRegi .right .formB .formFour p{
+	font-size:12px;
+	color:#6F6F6F;
+	float:left;
+	line-height:39px;
+	
+}
+.contentRegi .right .formB .formFour a{
+	float:left;
+	margin-left:5px;
+}
+.contentRegi .right .formRegi .agree{
+	width:304px;
+	height:20px;
+	margin:0 auto;
+	margin-top:20px;
+	font-size:12px;
+	padding-left:20px;
+	position:relative;
+	
+}
+.contentRegi .right .formRegi .agree input{
+	display:block;
+	height:15px;
+	width:15px;
+	background-color:none;
+	position:absolute;
+	top:0;
+	left:0;
+	outline:none;
+	
+}
+#footer{
+	width:980px;
+	height:44px;
+	margin:0 auto;
+	margin-top:78px;
+
+}
+#footer  ul.two {
+	height:12px;
+	
+	width:495px;
+	margin:0 auto;
+	margin-top:40px;
+	
+}
+#footer  ul.two li{
+	float:left;
+	
+}
+#footer  ul.two li a{
+	font-size:12px;
+	margin:0 5px;
+	color:#999999;
+}
+#footer p {
+	height:12px;
+	font-size:12px;
+	color:#999999;
+	width:587px;
+	margin:0 auto;
+	margin-top:10px;
+	
+}

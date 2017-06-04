@@ -1,0 +1,399 @@
+ .main{
+	width:100%;
+	height:900px;
+	background-color:#F5F5F5;
+	position:relative;
+}
+ .main  .goodas{
+	position:absolute;
+	z-index:9999999;
+	left:160px;
+	top:40px;
+	width:1070px;
+	height:600px;
+	background-color:#EBCCCC;
+	display:none;
+}
+ .main .goodas .headd1{
+	width:1020px;
+	height:46px;
+	line-height:46px;
+	padding-left:50px;
+	background-color: #DCDCDC;
+	font-size:18px;
+	font-weight:700;
+}
+ .main .goodas .cons{
+	width:1020px;
+	height:30px;
+	
+	margin:0 auto;
+	border:1px solid #CACACA;
+}
+ .main .goodas .cons ul li{
+	width:138px;
+	height:30px;
+	font-size:6px;
+	float:left;
+	font-size:18px;
+	line-height: 30px;
+	border-right:1px solid #C0C0C0;
+	text-align:center;
+}
+ .main .goodas .cons ul li.one{
+	width:602px;
+	height:30px;
+	border-right:1px solid #C0C0C0;
+	font-size:18px;
+	line-height:30px;
+	text-align:center;
+}
+ .main .goodas .tuPian{
+	height:170px;
+	width:1020px;
+	margin:0 auto;
+	border:1px solid #CACACA;
+}
+ .main .goodas .tuPian li{
+	float:left;
+	width:138px;
+	height:170px;
+	line-height:200px;
+	font-size:28px;
+	text-align:center;
+	border-right:1px solid #C0C0C0;
+}
+ .main .goodas .tuPian li.first{
+	width:602px;
+	height:170px;
+	line-height:0px;
+	font-size:18px;
+}
+ .main .goodas .tuPian li.first span{
+	display:inline;
+}
+ .main .goodas .tuPian li.first img{
+	width:100px;
+	height:130px;
+	vertical-align: middle;
+	display:inline;
+}
+ .main .goodas .tuPian li.last{
+	border:none;
+}
+ .main .goodas .jieSuan{
+	width:1020px;
+	height:300px;
+	
+	margin:0 auto;
+}
+ .main .goodas .jieSuan .left{
+	width:100px;
+	height:300px;
+	float:left;
+}
+ .main .goodas .jieSuan .right{
+	width:400px;
+	height:200px;
+	float:right;
+	padding-top:100px;
+}
+ .main .goodas .jieSuan .right li{
+	text-align:right;
+	font-size:18px;
+	margin:20px 0;
+}
+ .main .goodas .jieSuan .right li span{
+	display:inline;
+}
+ .main .goodas .jieSuan .right li.t3{
+	font-size:24px;
+	font-weight:700;
+}
+ .main .goodas .jieSuan .right li.t3 span{
+	color:red;
+	font-size:28px;
+	font-weight:800;
+}
+ .main .single{
+	position:absolute;
+	z-index:9999999;
+	left:160px;
+	top:150px;
+	width:1070px;
+	height:400px;
+	background-color:#E6F8D2;
+	display:none;
+	
+}
+ .main .single .headd1{
+	width:1020px;
+	height:46px;
+	line-height:46px;
+	padding-left:50px;
+	background-color: #DCDCDC;
+	font-size:18px;
+	font-weight:700;
+}
+ .main .single ul{
+	width:990px;
+	height:250px;
+	padding-left:80px;
+	padding-top:50px;
+}
+ .main .single ul li{
+	font-size:24px;
+	font-weight:600;
+	margin:10px 0;
+}
+ .main .single ul li span{
+	display:inline;
+	
+}
+ .main .single ul li.last{
+	width:100%;
+	text-align:right;
+	color:red;
+	font-size:14px;
+}
+
+ .main .cont{
+	width:1200px;
+	height:100%;
+	margin:0 auto;
+	
+}
+ .main .one{
+	width:100%;
+	height:42px;
+	line-height:42px;
+	
+	text-align:left;
+}
+ .main .one p{
+	font-size:14px;
+	
+}
+ .main .two{
+	width:120px;
+	height:753px;
+	background-color:white;
+	float:left;
+	padding-left:10px;
+	padding-top:13px;
+	position:relative;
+}
+
+
+ .main .two img{
+	position:absolute;
+	left:0;
+}
+ .main .two ul{
+	width:90px;
+	border-bottom:1px solid #F5F5F5;
+	padding-left:20px;
+}
+ .main .two ul li{
+	height:24px;
+	width:100%;
+	line-height:24px;
+	font-size:12px;
+}
+
+ .main .two ul.jia{
+	width:80px;
+	padding-left:30px;
+}
+ .main .two ul.jia li.hide{
+	display:none;
+}
+ .main .two ul li.increase{
+	cursor:pointer;
+	color:#636363;
+}
+
+ .main .two ul li a{
+	font-size:12px;
+	color:#636363;
+}
+ .main .three{
+	width:760px;
+	height:149px;
+	background-color:white;
+	float:left;
+	margin-left:10px;
+}
+ .main .three .up{
+	width:730px;
+	height:81px;
+	padding-left:30px;
+	padding-top:19px;
+	border-bottom:1px dashed #E3E3E3;
+}
+ .main .three .up .conten{
+	width:680px;
+	height:70px;
+}
+ .main .three .up .conten ul{
+	float:left;
+	width:480px;
+	height:70px;
+	margin-left:20px;
+}
+ .main .three .up .conten li{
+	height:35px;
+	float:left;
+	width:122px;
+	font-size:12px;
+	color:#8F8F8F;
+	line-height:35px;
+	text-align:center;
+}
+ .main .three .up .conten li.pic{
+	width:90px;
+	margin-left:8px;
+}
+ .main .three .up .conten li.pic a{
+	color:#8F8F8F;
+}
+ .main .three .up .conten li.pic a:hover{
+	color:red;
+}
+ .main .three .down{
+	height:27px;
+	width:100%;
+	padding-top:11px;
+}
+ .main .three .down ul{
+	height:25px;
+	width:100%;
+	
+	
+} 
+ .main .three .down ul li{
+	float:left;
+	text-align:center;
+	line-height:25px;
+	width:250px;
+	
+}
+ .main .three .down ul li a{
+	font-size:14px;
+	color:black;
+}
+ .main .three .down ul li.middle{
+	border-left:1px dashed #E3E3E3;
+	border-right:1px dashed #E3E3E3;
+}
+
+ .main .four{
+	width:280px;
+	height:149px;
+	background-color:white;
+	float:left;
+	margin-left:10px;
+	padding-left:10px;
+}
+ .main .four .container .up{
+	width:260px;
+	height:50px;
+	border-bottom:1px dashed #E3E3E3;
+	line-height:50px;
+	font-size:14px;
+}
+ .main .four .container .down{
+	margin-top:20px;
+	
+	width:260px;
+	height:100%;
+}
+ .main .four .container .down img{
+	display:inline;
+}
+ .main .four .container .down a{
+	margin-left:30px;
+}
+ .main .five{
+	width:733px;
+	height:347px;
+	background-color:white;
+	float:left;
+	margin:10px;
+	padding-left:27px;
+}
+ .main .five .container{
+	width:706px;
+	height:346px;
+}
+ .main .five .container .up{
+	height:41px;
+	width:100%;
+	border-bottom:1px dashed #E3E3E3;
+}
+ .main .five .container .up .left{
+	float:left;
+	height:41px;
+	line-height:41px;
+	font-size:14px;
+	font-weight:700;
+}
+ .main .five .container .up .right{
+	float:right;
+	height:41px;
+	width:50px;
+	position:relative;
+}
+ .main .five .container .up .right img{
+	position:absolute;
+	top:10px;
+	left:-5px;
+	
+}
+ .main .five .container .down{
+	width:704px;
+	height:250px;
+	margin-top:25px;
+}
+ .main .five .container .down dl{
+	width:162px;
+	height:250px;
+	float:left;
+	margin-right:14px;
+}
+ .main .five .container .down dl dt{
+	width:162px;
+	height:218px;
+}
+ .main .five .container .down dl dd{
+	width:142px;
+	height:32px;
+	line-height:32px;
+	font-size:14px;
+	color:red;
+	padding-left:20px;
+}
+ .main .five .container .down dl dd p{
+	color:#CACACA;
+	text-decoration:line-through;
+	display:inline;
+	margin-left:50px;
+}
+ .main .five .container .down dl dt img{
+	width:100%;
+	height：100%;
+}
+
+ .main .six{
+	width:290px;
+	height:393px;
+	background-color:white;
+	float:left;
+	margin-top:10px;
+	padding-top:30px;
+}
+ .main .six  .code{
+	width:111px;
+	height:313px;
+	margin:0 auto;
+}

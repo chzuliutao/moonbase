@@ -29,7 +29,7 @@ body #head div .headerL {
 }
 body #head div .headerR {
   height: 26px;
-  width: 600px;
+  width: 800px;
   float: right;
   line-height: 26px;
 }
@@ -46,6 +46,7 @@ body #head div .headerR ul li img {
   left: -80px;
   top: 100%;
   display: none;
+  z-index: 15;
 }
 body #head div .headerR ul li a {
   padding-left: 10px;
@@ -63,6 +64,20 @@ body #head div .headerR ul .li8 {
 }
 body #head div .headerR ul .li8 i {
   padding-left: 5px;
+}
+body #head div #useInfo {
+  float: right;
+  height: 100%;
+  width: 200px;
+  font-size: 11px;
+  line-height: 26px;
+}
+body #head div #userPwd {
+  float: right;
+  height: 100%;
+  width: 200px;
+  font-size: 11px;
+  line-height: 26px;
 }
 body #top {
   margin: 0 auto;
@@ -160,6 +175,12 @@ body #head2 .searchBox #souSou #btnSouSuo {
   padding-left: 10px;
   background-color: #E50163;
   cursor: pointer;
+}
+body #head2 .searchBox #souSou #btnSouSuo a {
+  color: #000;
+}
+body #head2 .searchBox #souSou #btnSouSuo a:hover {
+  color: #fff;
 }
 body #head2 .searchBox #daoHang {
   width: 510px;
@@ -508,6 +529,39 @@ body .content .right_nav .user .yonghu {
   padding-top: 30px;
   display: none;
 }
+body .content .right_nav .user .yonghu .dlinfo {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 176px;
+  background: #fff;
+}
+body .content .right_nav .user .yonghu .dlinfo .info_l {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin: 30px 20px 30px 30px;
+  background: url(../img/user.jpg);
+}
+body .content .right_nav .user .yonghu .dlinfo .info_r {
+  width: 180px;
+  float: right;
+  height: 176px;
+}
+body .content .right_nav .user .yonghu .dlinfo .info_r span {
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: #000;
+  display: block;
+}
+body .content .right_nav .user .yonghu .dlinfo .info_r .userName {
+  margin-top: 35px;
+}
 body .content .right_nav .user .yonghu .close_yonghu {
   width: 24px;
   height: 24px;
@@ -596,7 +650,7 @@ body .content .right_nav .che .shopcarR {
   text-align: center;
   font-size: 18px;
   line-height: 20px;
-  background: #fff;
+  background: #EAFFEA;
   color: #000;
   width: 300px;
   display: none;
@@ -784,7 +838,7 @@ body .content .banner .select_banner li:hover {
 body .content .banner ul li {
   display: none;
   width: 100%;
-  background: url(img/banner1.jpg) no-repeat center top;
+  background: url(../img/banner1.jpg) no-repeat center top;
 }
 body .content .banner ul li a {
   width: 100%;
@@ -854,12 +908,14 @@ body .content .maxbox .bigbox .bigbox_right_nav li {
   width: 100px;
 }
 body .content .maxbox .bigbox .bigbox_right_nav li span {
-  background: url(../img/sanjiao.png) no-repeat center;
+  background: #000;
+  transform: rotateZ(45deg);
   display: block;
   position: absolute;
-  width: 9px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
   left: 50px;
+  top: 18px;
   display: none;
 }
 body .content .maxbox .bigbox .bigbox_right img {
@@ -1142,12 +1198,14 @@ body .content .sspd .sspd_c .bigbox_right .bigbox_right_navb li a:hover {
   color: #fff;
 }
 body .content .sspd .sspd_c .bigbox_right .bigbox_right_navb li span {
-  background: url(../img/sanjiao.png) no-repeat center;
+  background: #b90334;
   display: block;
   position: absolute;
-  width: 9px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
+  transform: rotateZ(45deg);
   left: 195px;
+  top: 31px;
   display: none;
 }
 body .content .sspd .sspd_c .bigbox_right .bigbox_right_navb li .bigbox_right_navb0 {
