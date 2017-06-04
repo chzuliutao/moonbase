@@ -16,6 +16,6 @@
 2017-06-04
 目前仅实现cookie存取功能，不过之后会添加数据库存取功能
 
-##### 声明：引用转载请说明，请说明出处（顺便点一下star）https://github.com/chzuliutao/moonbase，写这个网站并非商业用途，只用于个人练习学习交流使用，侵删。
+##### 声明：写这个网站并非商业用途，只用于个人练习学习交流使用，侵删。引用转载请说明出处（顺便点一下star）https://github.com/chzuliutao/moonbase
 
 
